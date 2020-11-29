@@ -1,0 +1,99 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+
+
+/*========================   Nav manu ==================*/
+
+body {
+  background: #f5f6fa;
+}
+.promo-boxes-warp {
+  margin-left: -15px;
+  overflow: hidden;
+}
+.single-promo-box {
+	height: 350px;
+	width: 50%;
+	float: left;
+	display: table;
+	text-align: center;
+	background: #fff;
+}
+.promo-box-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 45px;
+	transition: .3s;
+}
+.single-promo-box:hover .promo-box-tablecell {
+	padding: 0;
+}
+.single-promo-box:nth-child(2) {
+  background: #d8889b;
+}
+.single-promo-box:nth-child(3) {
+  background: #7dbace;
+}
+.single-promo-box:nth-child(3) .box-btn{
+	background: #fff;
+	color: #000;
+}
+.single-promo-box:nth-child(2) .box-btn{
+	background: #fff;
+	color: #000;
+}
+.single-promo-box:nth-child(2),.single-promo-box:nth-child(3){
+	color: #fff;
+}
+.single-promo-box:nth-child(2) h2:after ,.single-promo-box:nth-child(3) h2:after {
+	background: #fff;
+}
+.single-promo-box:nth-child(4) h2:after {
+	background: #7dbace;
+	color: #7dbace;
+}
+.single-promo-box:nth-child(4) .promo-icon{
+	color: #7dbace;
+}
+.promo-icon::before {
+	font-size: 70px;
+}
+.single-promo-box h2 {
+	font-size: 28px;
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+.box-btn {
+	background: #7dbace;
+	color: #fff;
+	display: inline-block;
+	padding: 15px 40px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 900;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+.single-promo-box:hover .box-btn {
+	opacity: 1;
+	visibility: visible;
+}
+.single-promo-box h2::after {
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	height: 2px;
+	width: 50px;
+	margin-left: -25px;
+	content: "";
+	background: #d8889b;
+}

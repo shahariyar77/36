@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:12
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./font/flaticon.eot");
+  src: url("./font/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./font/flaticon.woff") format("woff"),
+       url("./font/flaticon.ttf") format("truetype"),
+       url("./font/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-ambulance:before { content: "\f100"; }
+.flaticon-aspirins:before { content: "\f101"; }
+.flaticon-atom:before { content: "\f102"; }
+.flaticon-awareness-ribbon:before { content: "\f103"; }
+.flaticon-bathroom-scales:before { content: "\f104"; }
+.flaticon-caduceus:before { content: "\f105"; }
+.flaticon-dna-sequence:before { content: "\f106"; }
+.flaticon-drip-bag:before { content: "\f107"; }
+.flaticon-drop-with-hospital-symbol:before { content: "\f108"; }
+.flaticon-electrocardiogram-on-screen:before { content: "\f109"; }
+.flaticon-electrocardiogram-report:before { content: "\f10a"; }
+.flaticon-esophagus:before { content: "\f10b"; }
+.flaticon-eye-closeup:before { content: "\f10c"; }
+.flaticon-female-body:before { content: "\f10d"; }
+.flaticon-first-aid-kit:before { content: "\f10e"; }
+.flaticon-first-aid-kit-1:before { content: "\f10f"; }
+.flaticon-glasses:before { content: "\f110"; }
+.flaticon-head-with-brain:before { content: "\f111"; }
+.flaticon-health-crutches:before { content: "\f112"; }
+.flaticon-health-drip:before { content: "\f113"; }
+.flaticon-health-thermometer:before { content: "\f114"; }
+.flaticon-heart-organ:before { content: "\f115"; }
+.flaticon-heart-with-electrocardiogram:before { content: "\f116"; }
+.flaticon-hospital-bed:before { content: "\f117"; }
+.flaticon-hospital-building:before { content: "\f118"; }
+.flaticon-hospital-drip-bag:before { content: "\f119"; }
+.flaticon-hospital-symbol:before { content: "\f11a"; }
+.flaticon-hospital-syringe:before { content: "\f11b"; }
+.flaticon-human-brain:before { content: "\f11c"; }
+.flaticon-human-skull:before { content: "\f11d"; }
+.flaticon-lab-microscope:before { content: "\f11e"; }
+.flaticon-lungs-organ:before { content: "\f11f"; }
+.flaticon-male-and-female-symbols:before { content: "\f120"; }
+.flaticon-molar:before { content: "\f121"; }
+.flaticon-no-smoking-sign:before { content: "\f122"; }
+.flaticon-nurse-silhouette:before { content: "\f123"; }
+.flaticon-pharmacy-icon:before { content: "\f124"; }
+.flaticon-phonendoscope:before { content: "\f125"; }
+.flaticon-pills-bottle:before { content: "\f126"; }
+.flaticon-rubbish-bin:before { content: "\f127"; }
+.flaticon-scalpel:before { content: "\f128"; }
+.flaticon-silhouette-on-wheelchair:before { content: "\f129"; }
+.flaticon-skull-and-crossbones:before { content: "\f12a"; }
+.flaticon-sperm:before { content: "\f12b"; }
+.flaticon-star-of-life:before { content: "\f12c"; }
+.flaticon-sticking-plaster:before { content: "\f12d"; }
+.flaticon-stomach:before { content: "\f12e"; }
+.flaticon-test-tubes:before { content: "\f12f"; }
+.flaticon-toxic-sign:before { content: "\f130"; }
+.flaticon-two-color-pill:before { content: "\f131"; }
